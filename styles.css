@@ -13,7 +13,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
@@ -46,7 +46,8 @@ h1 {
 }
 
 img {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
 }
+
 
