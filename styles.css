@@ -83,8 +83,11 @@ aside {
   border-radius: 20px;
   cursor: pointer;
   background-color:gainsboro;
-  padding: 5px 10px;
+  padding: 10px 10px;
   font-size: 3ch;
+}
+#a1{
+  color: #000;
 }
 #sec2{
   color: #57cc99;
@@ -92,8 +95,11 @@ aside {
   border-radius: 20px;
   cursor: pointer;
   background-color:gainsboro;
-  padding: 5px 10px;
+  padding: 10px 10px;
   font-size: 3ch;
+}
+#a2{
+  color: #000;
 }
 #sec3{
   color: blue;
@@ -101,8 +107,11 @@ aside {
   border-radius: 20px;
   cursor: pointer;
   background-color:gainsboro;
-  padding: 5px 10px;
+  padding: 10px 10px;
   font-size: 3ch;
+}
+#a3{
+  color: #000;
 }
 footer{
   color: aliceblue;
