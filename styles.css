@@ -15,13 +15,18 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
   background-color: #eee;
   float: none;
 }
+
+h1{
+  text-align: center;
+}
+
 
 nav a {
   display: inline-block;
