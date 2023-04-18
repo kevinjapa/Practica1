@@ -49,5 +49,21 @@ img {
   width: 70px;
   height: 70px;
 }
+/*animacion cajas de texto*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  position: relative;
+  left: 0;
+  transition: left 0.3s ease;
+}
+
+a:hover {
+  left: 10px;
+}
 
 
