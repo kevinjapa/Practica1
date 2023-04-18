@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <h1>Estandares Web</h1>
+    <img src="https://www.ups.edu.ec/documents/20121/77326/Isotipo+Original.png/48fb2ada-b4e7-09df-b45a-884cda62cc9b?version=1.0&t=1620746533255&imagePreview=1" alt="logo UPS" class="imagen-derecha">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="page2.html">HTML</a>
+      <a href="page3.html">CSS</a>
+      <a href="page4.html">JAVASCRIPT</a>
+      <a href="page5.html">Contacto</a>
+    </nav>
+    <div class="clearfix"> </div> <!-- para agregar los nuevos estilos desde css -->
+    <main>
+      <section>
+        <h1>Que es</h1>
+        <p>Los estándares web son un conjunto de reglas y recomendaciones que establecen la forma en que 
+          se deben desarrollar los sitios web para garantizar la interoperabilidad entre 
+          navegadores y sistemas operativos. Estos estándares son desarrollados por organizaciones como la W3C (World Wide Web Consortium) 
+          y el IETF (Internet Engineering Task Force).</p>
+      </section>
+      <section>
+        <h2>Historia</h1>
+      </section>
+      <section>
+        <h2>Contacto</h1>
+          <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre"><br>
+            <br>
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" required><br>
+            <br>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje"></textarea><br>
+          <input type="submit" value="Enviar" onclick="correo()" class="btnenviar">
+        </form>
+      </section> 
+    </main>
+    <aside>
+      <section id="sec1">
+        <label for="A">A</label><label for="a" id="a1">a</label> 
+        <input type="submit" value="Cambiar" class="btnamarillo">
+      </section>
+      <section id="sec2">
+        <label for="A">A</label><label for="a" id="a2">a</label> 
+        <input type="submit" value="Cambiar" class="btnverde">
+      </section>
+      <section id="sec3">
+        <label for="A">A</label><label for="a" id="a3">a</label> 
+        <input type="submit" value="Cambiar" class="btnazul">
+      </section>
+    </aside>
+    <div class="clearfix"> </div> <!-- para agregar los nuevos estilos desde css -->
+    <footer>
+      <p> Pedro Orellana - Kevin Japa &copy; 2023</p>
+    </footer>
+  </body>
+</html>
