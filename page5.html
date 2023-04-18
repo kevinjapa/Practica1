@@ -4,11 +4,10 @@
     <title>Contacto</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles5.css" />
   </head>
   <body>
     <nav>
-      <h1>Contacto</h1>
     <img src="https://www.ups.edu.ec/documents/20121/77326/Isotipo+Original.png/48fb2ada-b4e7-09df-b45a-884cda62cc9b?version=1.0&t=1620746533255&imagePreview=1" alt="logo UPS" class="imagen-derecha">
       <a href="index.html">Inicio</a>
       <a href="page2.html">HTML</a>
@@ -16,22 +15,35 @@
       <a href="page4.html">JAVASCRIPT</a>
       <a href="page5.html" aria-current="page">Contacto</a>
     </nav>
+
     <div class="clearfix"> </div> <!-- para agregar los nuevos estilos desde css -->
     <main>
-      <section>
-        <h2>Contacto</h1>
-          <form>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre"><br>
-            <br>
-          <label for="email">Email: </label>
-          <input type="email" id="email" name="email" required><br>
-            <br>
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje"></textarea><br>
-          <input type="submit" value="Enviar" onclick="correo()" class="btnenviar">
-        </form>
-      </section> 
+        <div class="hero">
+            <h1>Contactos Y Sugerencias
+            <a class="scroll-link" href="#content">
+                <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+                <g fill="none" fill-rule="evenodd">
+                    <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36"/>
+                    <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF"/>
+                </g>
+            </svg>
+            </a>
+        </div>
+        <div id="content" class="content">
+            <h2>Contacto</h2>
+                <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                  <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required><br>
+                  <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea><br>
+                <input type="submit" value="Enviar" onclick="correo()" class="btnenviar">
+              </form>
+            </section> 
+        </div>
     </main>
     <div class="clearfix"> </div> <!-- para agregar los nuevos estilos desde css -->
     <footer>
