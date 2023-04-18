@@ -9,19 +9,3 @@ jQuery(document).ready(function($){
 	});
 	
 });
-
-/* estrellas */
-
-const container = document.querySelector('.stars-container');
-
-document.addEventListener('mousemove', function(e) {
-  const star = document.createElement('div');
-  star.classList.add('star');
-  star.style.top = e.clientY + 'px';
-  star.style.left = e.clientX + 'px';
-  container.appendChild(star);
-
-  setTimeout(function() {
-    star.remove();
-  }, 1000);
-});
