@@ -45,9 +45,9 @@
   
   main {
     padding: 1rem;
-    float: left;
+    float: center;
     background-color:gainsboro;
-    width: 80%;
+    width: 100%;
   }
   
   main h1 {
