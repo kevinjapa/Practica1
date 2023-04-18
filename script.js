@@ -15,8 +15,8 @@ function correo()
   }
 }
 
-function cambiarEstilo() {
-  var parrafo = document.getElementById("mi-elemento");
-  parrafo.style.fontSize = "24px";
+function cambiarColor() {
+  var elemento = document.getElementById("mi-div");
+  elemento.style.backgroundColor = "blue";
 }
 
