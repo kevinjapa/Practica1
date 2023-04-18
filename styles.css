@@ -1,3 +1,6 @@
+.clearfix{/* para llamar a una de las clases desde html*/
+  clear: both;/* para que los elementos que se estan subiendo se queden en su mismo lugar\*/
+}
 * {
   box-sizing: border-box;
 }
@@ -18,6 +21,7 @@ nav {
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
   background-color: #eee;
+  float: none;
 }
 
 nav a {
@@ -38,17 +42,52 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
+  float: left;
+  background-color: aqua;
+  width: 80%;
 }
 
-h1 {
+main h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #555;
+}
+main h2{
+  text-align: center;
+
+}
+
+form{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
   width: 70px;
   height: 70px;
 }
+aside {
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  width: 20%;
+  height: 50;
+  float: right;
+  background-color: red;
+}
+footer{
+  color: aliceblue;
+  float: top;
+  text-align: center;
+  background-color:black;
+  width: 100%;
+  height: 10 px;
+  line-height: 10 px;
+}
+
 /*animacion cajas de texto*/
 ul {
   list-style: none;
