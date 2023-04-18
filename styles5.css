@@ -40,12 +40,9 @@
   }
   
   main {
-    padding: 1rem;
-    float: left;
     background-color: rgb(187, 201, 245);
-    width: 80%;
+    width: 100%;
   }
-  
   main h1 {
     font-weight: bold;
     font-size: 2.5rem;
@@ -55,7 +52,6 @@
   }
   main h2{
     text-align: center;
-  
   }
   form{
     text-align: center;
@@ -65,51 +61,6 @@
   img {
     width: 70px;
     height: 70px;
-  }
-  aside {
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    width: 20%;
-    height: 50;
-  }
-  #sec1{
-    color:yellow;
-    border: solid black;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color:gainsboro;
-    padding: 10px 10px;
-    font-size: 3ch;
-  }
-  #a1{
-    color: #000;
-  }
-  #sec2{
-    color: #57cc99;
-    border: solid black;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color:gainsboro;
-    padding: 10px 10px;
-    font-size: 3ch;
-  }
-  #a2{
-    color: #000;
-  }
-  #sec3{
-    color: blue;
-    border: solid black;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color:gainsboro;
-    padding: 10px 10px;
-    font-size: 3ch;
-  }
-  #a3{
-    color: #000;
   }
   footer{
     color: aliceblue;
@@ -145,64 +96,7 @@
   }
   
   /*botones */
-  
-  .btnamarillo {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #ffd819;
-    background: #ffd819;
-  }
-  .btnamarillo:hover {
-    background: #fff;
-    color: #ffd819
-  }
-  .btnverde {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #57cc99;
-    background: #57cc99;
-  }
-  .btnverde:hover {
-    background: #fff;
-    color: #57cc99
-  }
-  .btnazul {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #4433ff;
-    background: #4433ff;
-  }
-  .btnazul:hover {
-    background: #fff;
-    color: #4433ff
-  }
+
   .btnenviar {
     min-width: 130px;
     height: 40px;
