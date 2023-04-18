@@ -14,4 +14,9 @@ function correo()
     alert("Correo Incorrecto");
   }
 }
-  
+
+function cambiarEstilo() {
+  var parrafo = document.getElementById("mi-elemento");
+  parrafo.style.fontSize = "24px";
+}
+
