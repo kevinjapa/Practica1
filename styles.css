@@ -75,19 +75,34 @@ aside {
   font-size: medium;
   width: 20%;
   height: 50;
-  background-color: red;
+
 }
 #sec1{
   color: yellow;
-  border-bottom: solid black;
+  border: solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: gray;
+  padding: 5px 10px;
+  font-size: 3ch;
 }
 #sec2{
   color: greenyellow;
-  border-bottom:solid #000;
+  border: solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: gray;
+  padding: 5px 10px;
+  font-size: 3ch;
 }
 #sec3{
   color: blue;
-  border-bottom: solid black;
+  border: solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: gray;
+  padding: 5px 10px;
+  font-size: 3ch;
 }
 footer{
   color: aliceblue;
@@ -114,6 +129,12 @@ a{
 
 a:hover {
   left: 10px;
+}
+/*Ubicacion de logo ups */
+.imagen-derecha {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 
