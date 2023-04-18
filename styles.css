@@ -43,7 +43,7 @@ nav a[aria-current='page'] {
 main {
   padding: 1rem;
   float: left;
-  background-color: aqua;
+  background-color: rgb(187, 201, 245);
   width: 80%;
 }
 
@@ -78,20 +78,20 @@ aside {
 
 }
 #sec1{
-  color: yellow;
+  color:yellow;
   border: solid black;
   border-radius: 20px;
   cursor: pointer;
-  background-color: gray;
+  background-color:gainsboro;
   padding: 5px 10px;
   font-size: 3ch;
 }
 #sec2{
-  color: greenyellow;
+  color: #57cc99;
   border: solid black;
   border-radius: 20px;
   cursor: pointer;
-  background-color: gray;
+  background-color:gainsboro;
   padding: 5px 10px;
   font-size: 3ch;
 }
@@ -100,7 +100,7 @@ aside {
   border: solid black;
   border-radius: 20px;
   cursor: pointer;
-  background-color: gray;
+  background-color:gainsboro;
   padding: 5px 10px;
   font-size: 3ch;
 }
@@ -137,4 +137,133 @@ a:hover {
   right: 0;
 }
 
+/*botones */
 
+.btnamarillo {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #ffd819;
+  background: #ffd819;
+}
+.btnamarillo:hover {
+  background: #fff;
+  color: #ffd819
+}
+.btnverde {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #57cc99;
+  background: #57cc99;
+}
+.btnverde:hover {
+  background: #fff;
+  color: #57cc99
+}
+.btnazul {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #4433ff;
+  background: #4433ff;
+}
+.btnazul:hover {
+  background: #fff;
+  color: #4433ff
+}
+.btnenviar {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #6c757d
+}
+.btnenviar:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left:8px;
+}
+.btnenviar:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.btnenviar:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+/*estilo cajas de texto*/
+
+#email{
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+#nombre{
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+#mensaje{
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
