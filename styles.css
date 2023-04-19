@@ -271,7 +271,6 @@ button {
 }
 /*Animacion de los parrafos */
 #micaja {
-  border: 1px solid #ccc;
   padding: 10px;
   animation-name: mover-texto;
   animation-duration: 2s;
