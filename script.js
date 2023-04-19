@@ -1,3 +1,4 @@
+
 function validarCorreoElectronico(correo) {
     var expresionRegular = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     return expresionRegular.test(correo);
@@ -15,8 +16,18 @@ function correo()
   }
 }
 
-function cambiarColor() {
-  var elemento = document.getElementById("mi-div");
-  elemento.style.backgroundColor = "blue";
+function cambiarEstilo() {
+  var select = document.getElementById("mi-select");
+  var seleccion = select.value;
+
+  if(seleccion == "rojo"){
+    var elemento = document.getElementById("mi-elemento");
+    elemento.classList.add("rojo");
+  }else if(seleccion == "nulo"){
+    alert("Seleccione un color");
+  }
+  
+  
 }
+
 

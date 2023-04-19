@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <title>Home</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <link rel="stylesheet" href="styles.css" />
-  
-</head>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
   <body>
-    <h1 id="mi-div">Estandares Web</h1>
-    <button onclick="cambiarColor()">Cambiar color</button>
+    <h1>Estandares Web</h1>
     <nav>
       <img
         src="https://www.ups.edu.ec/documents/20121/77326/Isotipo+Original.png/48fb2ada-b4e7-09df-b45a-884cda62cc9b?version=1.0&t=1620746533255&imagePreview=1"
@@ -21,7 +20,8 @@
       <a href="page4.html">JAVASCRIPT</a>
       <a href="page5.html">Contacto</a>
     </nav>
-    <main>
+
+    <main id="mi-elemento">
       <section>
         <h1>Que es</h1>
         <p>Los estándares web son un conjunto de reglas y recomendaciones que establecen la forma en que
@@ -35,19 +35,27 @@
       <section>
         <h2>Historia</h1>
       </section>
-      <section>
-        <select class="mi-lista">
-          <option value="manzana">Rojo</option>
-          <option value="pera">Azul</option>
-          <option value="platano">Amarillo</option>
-          <option value="naranja">Verde</option>
-        </select>
-      </section>
+      
     </main>
+
     <div class="clearfix"> </div> <!-- para agregar los nuevos estilos desde css -->
+
     <footer>
       <p> Pedro Orellana - Kevin Japa &copy; 2023</p>
+      
+      <section>
+        <button onclick="cambiarEstilo()">Cambiar color</button>
+        <select id="mi-select" class="mi-lista">
+          <option value="nulo">Elige un color Color</option>
+          <option value="rojo">Rojo</option>
+          <option value="azul">Azul</option>
+          <option value="amarillo">Amarillo</option>
+          <option value="verde">Verde</option>
+        </select>
+      </section>
     </footer>
-    <script type="module" src="script.js"></script>
+
+    <script src="script.js"></script>
   </body>
+
 </html>
