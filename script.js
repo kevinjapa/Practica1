@@ -19,26 +19,43 @@ function correo()
 function cambiarEstilo() {
   var select = document.getElementById("mi-select");
   var seleccion = select.value;
-
+  var elemento = document.getElementById("mi-elemento");
   switch (seleccion) {
     case "rojo":
-      var elemento = document.getElementById("mi-elemento");
       elemento.style.background = "red";
       break;
     case "nulo":
       alert("Seleccione un color");
       break;
     case "azul":
-      var elemento = document.getElementById("mi-elemento");
       elemento.style.background = "blue";
       break;
     case "amarillo":
-      var elemento = document.getElementById("mi-elemento");
       elemento.style.background = "yellow";
       break;
   case "verde":
-      var elemento = document.getElementById("mi-elemento");
       elemento.style.background = "green";
+      break;
+  }
+
+  var select2 = document.getElementById("mi-select2");
+  var seleccion2 = select2.value;
+
+  switch (seleccion2) {
+    case "nulo":
+      alert("Seleccione un tipo de letra");
+      break;
+    case "tipo1":
+      elemento.style.fontFamily = "Courier New", monospace;
+      break;
+    case "tipo2":
+      elemento.style.fontFamily = "cursive", sans-serif;
+      break;
+    case "tipo3":
+      elemento.style.fontFamily = 'fantasy', sans-serif;
+      break;
+  case "tipo4":
+      elemento.style.fontFamily = 'Times New Roman', sans-serif;
       break;
   }
   
