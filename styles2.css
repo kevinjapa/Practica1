@@ -215,4 +215,21 @@ h1::after {
   transform: scale(1.2);
 }
 
-  
+.mi-lista {
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  outline: none;
+  background-color:rgb(53, 63, 171);
+  border-color:rgb(53, 63, 171);
+}
+button {
+  color: white;
+  background-color:rgb(53, 63, 171);
+  border-color:white;
+}
+#cambioEstilo{
+  font-size: 15px;
+  font-weight: bold;
+}
