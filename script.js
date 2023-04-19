@@ -20,13 +20,27 @@ function cambiarEstilo() {
   var select = document.getElementById("mi-select");
   var seleccion = select.value;
 
-  if(seleccion == "rojo"){
-    var elemento = document.getElementById("mi-elemento");
-    elemento.classList.add("rojo");
-  }else if(seleccion == "nulo"){
-    alert("Seleccione un color");
+  switch (seleccion) {
+    case "rojo":
+      var elemento = document.getElementById("mi-elemento");
+      elemento.style.background = "red";
+      break;
+    case "nulo":
+      alert("Seleccione un color");
+      break;
+    case "azul":
+      var elemento = document.getElementById("mi-elemento");
+      elemento.style.background = "blue";
+      break;
+    case "amarillo":
+      var elemento = document.getElementById("mi-elemento");
+      elemento.style.background = "yellow";
+      break;
+  case "verde":
+      var elemento = document.getElementById("mi-elemento");
+      elemento.style.background = "green";
+      break;
   }
-  
   
 }
 

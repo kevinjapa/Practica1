@@ -299,12 +299,13 @@ a:hover {
   border-color:rgb(53, 63, 171);
 }
 
-.rojo {
-  background-color: red;
-}
-
 button {
   color: white;
   background-color:rgb(53, 63, 171);
   border-color:white;
+}
+
+#cambioEstilo{
+  font-size: 15px;
+  font-weight: bold;
 }
