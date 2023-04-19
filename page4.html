@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles4.css"/>
+  </head>
+
+  <body>
+    <h1>Estandares Web</h1>
+    <nav>
+      <img
+        src="https://www.ups.edu.ec/documents/20121/77326/Isotipo+Original.png/48fb2ada-b4e7-09df-b45a-884cda62cc9b?version=1.0&t=1620746533255&imagePreview=1"
+        alt="logo UPS" class="imagen-derecha">
+      <a href="index.html" >Estandares Web</a>
+      <a href="page2.html">HTML</a>
+      <a href="page3.html">CSS</a>
+      <a href="page4.html" aria-current="page">JAVASCRIPT </a>
+      <a href="page5.html">Contacto</a>
+    </nav>
+    <main id="mi-elemento">
+      <section>
+        <h1>Que es</h1>
+      </section>
+    </main>
+
+    <div class="clearfix"> </div> <!-- para agregar los nuevos estilos desde css -->
+
+    <footer>
+      <p> Pedro Orellana - Kevin Japa &copy; 2023</p>
+      <section>
+        <label id = "cambioEstilo">Fondo</label>
+        <select id="mi-select" class="mi-lista">
+          <option value="nulo">Elige un color</option>
+          <option value="rojo">Rojo</option>
+          <option value="azul">Azul</option>
+          <option value="amarillo">Amarillo</option>
+          <option value="verde">Verde</option>
+        </select>
+        <label id = "cambioEstilo">Letras</label>
+        
+        <button onclick="cambiarEstilo()">Aplicar</button>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
