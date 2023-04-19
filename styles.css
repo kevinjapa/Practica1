@@ -290,14 +290,22 @@ a:hover {
 }
 
 .mi-lista {
-  background-color: #ffffff;
-  color: #000000;
-  font-size: 16px;
+  color: white;
+  font-size: 14px;
   padding: 8px;
   border: 1px solid #cccccc;
   outline: none;
-  background-color: rgb(187, 201, 245);
-  border-color: rgb(187, 201, 245);
+  background-color:rgb(53, 63, 171);
+  border-color:rgb(53, 63, 171);
 }
 
+button {
+  color: white;
+  background-color:rgb(53, 63, 171);
+  border-color:white;
+}
 
+#cambioEstilo{
+  font-size: 15px;
+  font-weight: bold;
+}
