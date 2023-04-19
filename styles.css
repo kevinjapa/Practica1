@@ -263,7 +263,7 @@ button {
 }
 .container img {
   transition: transform 0.3s ease-out;
-}
+} 
 .container:hover img {
   transform: scale(1.2);
 }
@@ -271,7 +271,7 @@ button {
 #micaja {
   padding: 10px;
   animation-name: mover-texto;
-  animation-duration: 2s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 @keyframes mover-texto {
