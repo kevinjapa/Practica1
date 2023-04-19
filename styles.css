@@ -47,9 +47,10 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
-  float: left;
+  float: center;
   background-color: rgb(187, 201, 245);
-  
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 main h1 {

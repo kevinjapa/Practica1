@@ -51,6 +51,8 @@
     padding: 1rem;
     float: center;
     width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   main h1 {
     font-weight: bold;
