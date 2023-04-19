@@ -261,11 +261,31 @@ button {
     stroke-dashoffset: 0;
   }
 }
-
 .container img {
   transition: transform 0.3s ease-out;
-}
-
+} 
 .container:hover img {
   transform: scale(1.2);
 }
+/*Animacion de los parrafos */
+#micaja {
+  padding: 10px;
+  animation-name: mover-texto;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes mover-texto {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#micaja:hover {
+  color:rgb(132, 111, 164);
+}
+
