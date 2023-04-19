@@ -140,7 +140,7 @@ ul {
 *::after {
   box-sizing: border-box;
 }
-.container {
+.container2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,4 +203,12 @@ ul {
   100% {
     width: 100%;
   }
+}
+
+.container img {
+  transition: transform 0.3s ease-out;
+}
+
+.container:hover img {
+  transform: scale(1.2);
 }
