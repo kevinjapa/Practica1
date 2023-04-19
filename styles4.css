@@ -4,14 +4,12 @@
   * {
     box-sizing: border-box;
   }
-  
   body {
     margin: 0;
     font-family: system-ui, sans-serif;
     color: black;
     background-color: white;
   }
-  
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +21,6 @@
     background-color: #eee;
     float: none;
   }
-  
   h1{
     text-align: center;
   }
@@ -37,12 +34,10 @@
     text-decoration: none;
     color: #555;
   }
-  
   nav a[aria-current='page'] {
     color: #000;
     background-color: #d4d4d4;
   }
-  
   main {
     padding: 1rem;
     float: center;
@@ -50,18 +45,15 @@
     margin-left: 60px;
     margin-right: 60px;
   }
-  
   main h1 {
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
     color: #555;
     font-family: Arial, Helvetica, sans-serif;
-    
   }
   main h2{
     text-align: center;
-  
   }
   main p{
     margin-top: 0px; 
@@ -70,15 +62,14 @@
     margin-left: 150px;
     text-align: justify;
   }
-  
   form{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
   }
   /*Imagenes */
   .imagen-derecha {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
   body main div{
     text-align: center;
@@ -92,42 +83,6 @@
     width: 20%;
     height: 50;
   }
-  #sec1{
-    color:yellow;
-    border: solid black;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color:gainsboro;
-    padding: 10px 10px;
-    font-size: 3ch;
-  }
-  #a1{
-    color: #000;
-  }
-  #sec2{
-    color: #57cc99;
-    border: solid black;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color:gainsboro;
-    padding: 10px 10px;
-    font-size: 3ch;
-  }
-  #a2{
-    color: #000;
-  }
-  #sec3{
-    color: blue;
-    border: solid black;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color:gainsboro;
-    padding: 10px 10px;
-    font-size: 3ch;
-  }
-  #a3{
-    color: #000;
-  }
   footer{
     color: aliceblue;
     float: top;
@@ -137,20 +92,17 @@
     height: 10 px;
     line-height: 10 px;
   }
-  
   /*animacion cajas de texto*/
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
   a{
     position: relative;
     left: 0;
     transition: left 0.3s ease;
   }
-  
   a:hover {
     left: 10px;
   }
@@ -160,138 +112,7 @@
     top: 0;
     right: 0;
   }
-  
-  /*botones */
-  
-  .btnamarillo {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #ffd819;
-    background: #ffd819;
-  }
-  .btnamarillo:hover {
-    background: #fff;
-    color: #ffd819
-  }
-  .btnverde {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #57cc99;
-    background: #57cc99;
-  }
-  .btnverde:hover {
-    background: #fff;
-    color: #57cc99
-  }
-  .btnazul {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #4433ff;
-    background: #4433ff;
-  }
-  .btnazul:hover {
-    background: #fff;
-    color: #4433ff
-  }
-  .btnenviar {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    overflow: hidden;
-    border-radius: 5px;
-    border: none;
-    background-color: #6c757d
-  }
-  .btnenviar:hover {
-    border-radius: 5px;
-    padding-right: 24px;
-    padding-left:8px;
-  }
-  .btnenviar:hover:after {
-    opacity: 1;
-    right: 10px;
-  }
-  .btnenviar:after {
-    content: "\00BB";
-    position: absolute;
-    opacity: 0;
-    font-size: 20px;
-    line-height: 40px;
-    top: 0;
-    right: -20px;
-    transition: 0.4s;
-  }
-  
-  /*estilo cajas de texto*/
-  
-  #email{
-    padding: 10px;
-    border: none;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    transition: all 0.3s ease;
-  }
-  #nombre{
-    padding: 10px;
-    border: none;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    transition: all 0.3s ease;
-  }
-  #mensaje{
-    padding: 10px;
-    border: none;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    transition: all 0.3s ease;
-  }
-  
+  /*botones */  
   .mi-lista {
     color: white;
     font-size: 14px;
@@ -301,15 +122,58 @@
     background-color:rgb(53, 63, 171);
     border-color:rgb(53, 63, 171);
   }
-  
   button {
     color: white;
     background-color:rgb(53, 63, 171);
     border-color:white;
   }
-  
   #cambioEstilo{
     font-size: 15px;
     font-weight: bold;
   }
+  /*Animacion Titulo*/
+  @import url("https://fonts.googleapis.com/css?family=Bitter:700");
+  .container {
+    background-color: #ffffff;
+    color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  word-spacing: 3px;
+  max-width: 45rem;
+  text-shadow: 0px 1px 0px white;
+}
+.container .highlight {
+  display: inline-block;
+  color: #343434;
+  transition: color 250ms, text-shadow 250ms;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px white;
+  position: relative;
+  z-index: 0;
+}
+.container .highlight::after {
+  position: absolute;
+  z-index: -1;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #343434;
+  transition: all 250ms;
+}
+.container .highlight:hover {
+  color: white;
+  text-shadow: 0px 1px 0px black;
+}
+.container .highlight:hover::after {
+  height: 105%;
+  width: 105%;
+}
   
