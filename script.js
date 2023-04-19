@@ -61,4 +61,17 @@ function cambiarEstilo() {
   
 }
 
+const container = document.querySelector('.container');
+const img = container.querySelector('img');
+
+container.addEventListener('mouseover', () => {
+  img.style.transform = 'scale(1.2)';
+});
+
+container.addEventListener('mouseout', () => {
+  img.style.transform = 'scale(1)';
+});
+
+
+
 

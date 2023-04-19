@@ -39,6 +39,14 @@
     text-decoration: none;
     color: #555;
   }
+
+  #texto{
+    margin-top: -12px; 
+    margin-right: 150px; 
+    margin-bottom: 30px; 
+    margin-left: 150px;
+    text-align: justify;
+  }
   
   nav a[aria-current='page'] {
     color: #000;
