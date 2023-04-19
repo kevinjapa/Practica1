@@ -54,6 +54,10 @@
     text-align: center;
     color: #555;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    animation-name: mover-texto;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
   }
   main h4, h5{
     text-align: center;
@@ -156,7 +160,7 @@ main p{
   z-index: 1;
   text-shadow: 0px 1px 1px white;
 }
-h1::before, h1::after {
+#titulo::before, #titulo::after {
   position: absolute;
   content: "";
   width: 0px;
@@ -165,12 +169,12 @@ h1::before, h1::after {
   background-color: rgba(0, 0, 0, 0.2);
   z-index: -1;
 }
-h1::before {
+#titulo::before {
   top: 1.4rem;
   -webkit-animation: draw 500ms linear 1s forwards;
           animation: draw 500ms linear 1s forwards;
 }
-h1::after {
+#titulo::after {
   bottom: 0.4rem;
   -webkit-animation: draw 500ms linear 1s forwards;
           animation: draw 500ms linear 1s forwards;
@@ -237,6 +241,18 @@ button {
   font-weight: bold;
 }
 /*Cambio de color de Titulo*/
-#mititulo:hover {
+main h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
   color:rgb(178, 95, 47);
+}
+
+@keyframes mover-texto {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

@@ -276,7 +276,6 @@ button {
 .container:hover img {
   transform: scale(1.2);
 }
-/*Animacion de los parrafos */
 
 @keyframes mover-texto {
   0% {
