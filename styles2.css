@@ -235,3 +235,7 @@ button {
   font-size: 15px;
   font-weight: bold;
 }
+/*Cambio de color de Titulo*/
+#mititulo:hover {
+  color:rgb(178, 95, 47);
+}

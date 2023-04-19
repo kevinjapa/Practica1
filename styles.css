@@ -285,7 +285,14 @@ button {
     transform: translateX(0);
   }
 }
+/*cambio de color a los titulos h1*/
 #micaja:hover {
   color:rgb(132, 111, 164);
 }
+/*cambio de color a los parrafos*/
+#miparrafo:hover {
+  color:rgb(99, 134, 119);
+
+}
+
 
