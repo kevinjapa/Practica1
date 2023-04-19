@@ -148,6 +148,7 @@ ul {
   margin: 0;
   font-size: 4rem;
   line-height: 1;
+  font-weight: bold;
   transform: translateY(6rem);
   -webkit-animation: up 500ms linear forwards;
           animation: up 500ms linear forwards;
