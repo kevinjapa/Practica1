@@ -15,7 +15,6 @@
       
     </div>
     <nav>
-    <img src="https://www.ups.edu.ec/documents/20121/77326/Isotipo+Original.png/48fb2ada-b4e7-09df-b45a-884cda62cc9b?version=1.0&t=1620746533255&imagePreview=1" alt="logo UPS" class="imagen-derecha">
       <a href="index.html">Estandares Web</a>
       <a href="page2.html">HTML</a>
       <a href="page3.html"aria-current="page">CSS</a>
@@ -56,7 +55,28 @@
     <div class="clearfix"> </div> <!-- para agregar los nuevos estilos desde css -->
     <footer>
       <p> Pedro Orellana - Kevin Japa &copy; 2023</p>
+      <section>
+        <label id = "cambioEstilo">Fondo</label>
+        <select id="mi-select" class="mi-lista">
+          <option value="nulo">Elige un color</option>
+          <option value="rojo">Rojo</option>
+          <option value="azul">Azul</option>
+          <option value="amarillo">Amarillo</option>
+          <option value="verde">Verde</option>
+        </select>
+
+        <label id = "cambioEstilo">Letras</label>
+        <select id="mi-select2" class="mi-lista">
+          <option value="nulo">Elige un tipo de letra</option>
+          <option value="tipo1">Courier New</option>
+          <option value="tipo2">Cursive</option>
+          <option value="tipo3">Fantasy</option>
+          <option value="tipo4">Times New Roman</option>
+        </select>
+        
+        <button onclick="cambiarEstilo()">Aplicar</button>
+      </section>
     </footer>
-    <script type="module" src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
