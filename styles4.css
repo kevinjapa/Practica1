@@ -45,16 +45,7 @@
     margin-left: 60px;
     margin-right: 60px;
   }
-  main h1 {
-    font-weight: bold;
-    font-size: 2.5rem;
-    text-align: center;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  main h2{
-    text-align: center;
-  }
+
   main p{
     margin-top: 0px; 
     margin-right: 150px; 
@@ -191,4 +182,36 @@
   transform: scale(1.2);
 }
 
-  
+.tituloGrande{
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  animation-name: mover-texto;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.tituloPequenio{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@keyframes mover-texto {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+main h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, h7:hover, h8:hover, h9:hover, h10:hover{
+  color:rgb(178, 95, 47);
+}
